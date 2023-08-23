@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="pasajes_style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pasajes</title>
+</head>
+<body>
+    <fieldset>
+    <legend> <img src="img/Transmilenio.png" alt="logo Transmilenio"></legend>
+   
+    <section>
+    <div>
+            <form action="pasajes.php" method="post">
+                <label for="saldo">Ingrese el nuevo Saldo</label>
+                <input type="number"name = 'saldo'>
+                
+    </div>
+    
+    <div>
+        <label for="opc">Elige el tipo de usuario</label>
+        <select name='usuario'>
+            <option value="usuario">Usuario</option>
+            <option value="normal">Usuario Normal</option>
+            <option value="sisben">Usuario Sisben</option>
+            <option value="adulto_mayor">Adulto Mayor</option>
+            
+        </select>
+        <button type="submit" name ="validar">Validar</button>
+        <button type="borrar"name ="limpiar">Limpiar</button>
+    </div>
+    </form>
+    </section>
+</fieldset> 
+</body>
+</html>

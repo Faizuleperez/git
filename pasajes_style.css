@@ -1,0 +1,19 @@
+body{
+    background-color: rgb(247, 247, 102);
+    
+}
+fieldset{
+    border-style:double;
+    border-color:red;
+}
+
+button{
+    background-color:white ;
+    color: black;
+    font-size: 20px;
+    border-color: red;
+}
+button:hover{
+    background-color: red;
+
+}
